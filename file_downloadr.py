@@ -1,0 +1,5 @@
+import gdown
+
+url = 'https://storage.googleapis.com/kaggle-competitions-data/kaggle-v2/51922/5810657/bundle/archive.zip?GoogleAccessId=web-data@kaggle-161607.iam.gserviceaccount.com&Expires=1686038732&Signature=K6xUAHylyyGpEMhnTHI6zwoV%2BcqWLlg1tqu1Rfdb73RN196u2D2jDYj6c7ljherDQNII2877V70stTgDaGamugE5w79BJ89xDWpbYwwJe5YCyHgGWOuSnks2RnTjKvnHTi4X7dI1GSrs3yQSFMLNqUlmzZflutqMqJ5kA3vnxrUBr%2FdAFDzypw6QOotHYxIg5CFXA5j279ZMzPrlyKhrPMdZ0okTrYBWlV9rjZfBXiSNC2II2SyaFZ67pdsZFxQxzDFvNH2uWJdwxu%2BK2fGCp7CYUXuNdQWUGWhfa7iiRuuzyCf9la%2FtpBuOptFz709GJsbdEYEregJBWm8rwWGEzw%3D%3D&response-content-disposition=attachment%3B+filename%3Djbnu-swuniv-ai.zip'
+output_path = 'datas.zip'
+gdown.download(url, output_path, quiet=False,fuzzy=True)
